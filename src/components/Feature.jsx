@@ -2,7 +2,7 @@ import * as Icons from 'lucide-react';
 
 export default function FeatureSection({ features }) {
   return (
-    <section className="pt-24 pb-16">
+    <section className="py-8 px-4 sm:pt-24 sm:pb-16">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center">
           {features.map((feature, idx) => {

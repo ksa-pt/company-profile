@@ -2,7 +2,7 @@ export default function ServicesSection({ service }) {
   return (
     <section
       id="service"
-      className="relative bg-fixed bg-cover bg-center px-6 py-24"
+      className="relative bg-fixed bg-cover bg-center py-8 px-4 sm:py-24"
       style={{
         backgroundImage: "url('/assets/parallax.jpg')",
       }}

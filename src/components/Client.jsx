@@ -1,22 +1,23 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/client.css';
 
 export default function ClientSection({ client }) {
   return (
-    <section id="client" className="container mx-auto py-16">
+    <section id="client" className="container mx-auto py-8 px-4 sm:py-16">
       <h2 className="text-3xl font-bold text-center mb-10">{client.title}</h2>
       <Swiper
-        modules={[Navigation, Pagination, A11y]}
+        modules={[Navigation, Pagination, A11y, Autoplay]}
         navigation
         pagination={{ clickable: true }}
         spaceBetween={50}
         slidesPerView={1}
         loop={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
       >
         {client.items.map((item, idx) => (
           <SwiperSlide key={idx}>

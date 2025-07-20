@@ -12,6 +12,7 @@
   border: 1px solid #3b82f6;
   border-radius: 4px;
   color: #3b82f6;
+  display: none;
 }
 
 .swiper-button-next::after,

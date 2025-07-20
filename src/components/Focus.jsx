@@ -1,6 +1,6 @@
 export default function FocusSection({ focus }) {
   return (
-    <section id="focus" className="bg-gray-200 py-16">
+    <section id="focus" className="bg-gray-200 py-8 px-4 sm:py-16">
       <div className="container mx-auto">
         <div className="mb-10">
           <h2 className="text-3xl font-bold mb-1">{focus.title}</h2>

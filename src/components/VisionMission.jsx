@@ -1,6 +1,6 @@
 export default function VisionMissionSection({ vision, mission }) {
   return (
-    <section id="vision-mission" className="container mx-auto  py-16 relative">
+    <section id="vision-mission" className="container mx-auto py-8 px-4 sm:py-16 relative">
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold mb-4">{vision.title}</h2>
         <p className="max-w-2xl mx-auto text-gray-500">{vision.text}</p>
