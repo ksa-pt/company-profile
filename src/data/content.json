@@ -5,11 +5,12 @@
     { "label": "Focus", "href": "#focus" },
     { "label": "Vision & Mission", "href": "#vision-mission" },
     { "label": "Services", "href": "#service" },
+    { "label": "Clients", "href": "#client" },
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
     "headline": "PT Kun Sejahtera Abadi",
-    "subheadline": "Your IT Solution",
+    "subheadline": "Empowering Your Business Through Innovative IT Solutions",
     "image": "/assets/background.png"
   },
   "features": [
