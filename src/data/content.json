@@ -1,0 +1,144 @@
+{
+  "email": "ptkunsejahteraabadi@gmail.com",
+  "menu": [
+    { "label": "About", "href": "#about" },
+    { "label": "Focus", "href": "#focus" },
+    { "label": "Vision & Mission", "href": "#vision-mission" },
+    { "label": "Services", "href": "#service" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "headline": "PT Kun Sejahtera Abadi",
+    "subheadline": "Your IT Solution",
+    "image": "/assets/background.png"
+  },
+  "features": [
+    {
+      "icon": "Cpu",
+      "title": "Latest Technology",
+      "description": "We leverage cutting-edge technologies to ensure every solution is fast, reliable, and scalable for modern business needs."
+    },
+    {
+      "icon": "Layers",
+      "title": "Smart and Flexible",
+      "description": "Our systems are designed with flexibility in mind—tailored to adapt and grow with your organization's unique processes."
+    },
+    {
+      "icon": "Smartphone",
+      "title": "Responsive Design",
+      "description": "From desktop to mobile, our solutions are optimized to deliver a seamless and intuitive user experience across all devices."
+    }
+  ],
+  "about": {
+    "title": "About KSA Indonesia",
+    "description": "Founded in 2023, our company was born from the perfect blend of experienced professionals and passionate, dedicated young talents.",
+    "commitment": "Our commitment is to deliver data-driven solutions that create a real impact, particularly in the sectors of healthcare, disaster management, and environmental sustainability—areas that are at the core of our expertise and focus."
+  },
+  "focus": {
+    "title": "Our Focus",
+    "description": "Here’s what we love doing and where we bring the most value — from coding great systems to making sense of data and applying AI in meaningful ways.",
+    "items": [
+      {
+        "title": "Software Development",
+        "description": "We provide software development solutions to build efficient applications and systems, utilizing the latest technologies and best practices to meet business needs.",
+        "icon": "/assets/icons/software.png"
+      },
+      {
+        "title": "Geographic Information System (GIS)",
+        "description": "We develop spatial data solutions that support location-based decision-making. With GIS integration across various domains (desktop, web, mobile), we help clients in sectors such as disaster management, environment, and sustainability gain deeper perspective.",
+        "icon": "/assets/icons/gis.png"
+      },
+      {
+        "title": "Big Data",
+        "description": "We leverage Big Data technology to help organizations manage and analyze large volumes of data quickly and accurately, from data acquisition and ETL to real-time analysis. We help clients support data-driven decision-making with relevant insights and factual accuracy.",
+        "icon": "/assets/icons/bigdata.png"
+      },
+      {
+        "title": "Large Language Models (AI Based)",
+        "description": "We integrate Artificial Intelligence including Large Language Models (LLM) to build automation systems and natural language-based digital assistants—like chatbots, sentiment analysis, and report generation that drive modern innovation.",
+        "icon": "/assets/icons/llm.png"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "Becoming a catalyst for positive transformation through technology, to shape a smarter, more sustainable, and inclusive future."
+  },
+  "mission": {
+    "title": "Mission",
+    "bullets": [
+      "Empowering individuals and businesses through innovative technology solutions that enhance efficiency, connectivity, and well-being.",
+      "Fostering a culture of sustainable growth, skill development, and adaptability to change.",
+      "Building strategic partnerships that are mutually beneficial and sustainable with clients and partners."
+    ]
+  },
+  "service": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Data Analytics",
+        "items": [
+          "Dashboard & Reporting",
+          "Data Warehouse & ETL",
+          "Big Data Management",
+          "Advanced Analytics (Predictive, Prescriptive)"
+        ]
+      },
+      {
+        "title": "IT Project Development",
+        "items": [
+          "Web & Mobile Application Development",
+          "API Integration & System Interfacing",
+          "Enterprise System Implementation (ERP, CRM)",
+          "Custom Software Solution"
+        ]
+      },
+      {
+        "title": "Data Engineering",
+        "items": [
+          "Data Pipeline Architecture",
+          "Cloud Data Infrastructure (AWS, GCP, Azure)",
+          "Real-Time Data Streaming"
+        ]
+      },
+      {
+        "title": "Consulting & IT Strategy",
+        "items": [
+          "IT Roadmap Design",
+          "Digital Transformation Advisory",
+          "Real-Time Data Streaming",
+          "IT Governance Documentation"
+        ]
+      }
+    ]
+  },
+  "client": {
+    "title": "Our Happy Clients",
+    "items": [
+      {
+        "client": "JMTO",
+        "logo": "/assets/svg/jmto.svg",
+        "quote": "JMTO has been consistently impressed by the quality and reliability of service provided. Their solutions have streamlined our operations significantly.",
+        "name": "Budi Santoso",
+        "title": "IT Manager at JMTO"
+      },
+      {
+        "client": "BMKG",
+        "logo": "/assets/svg/bmkg.svg",
+        "quote": "The collaboration with this team has empowered BMKG to process and communicate critical data more efficiently. Truly a transformative partnership.",
+        "name": "Rina Kartika",
+        "title": "Head of Data Analytics at BMKG"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Information",
+    "description": "For more information about our services or products, feel free to contact us through the details below.",
+    "phone": "+62 812-4834-287 (Aldaf)",
+    "email": [
+      "ptkunsejahteraabadi@gmail.com",
+      "nurafhmialifdaffa@gmail.com"
+    ],
+    "address": "Gedung Gondangdia 25 (3rd Floor Room 8), Jl. RP Soeroso 25, Jakarta Pusat 10330"
+  }
+}
