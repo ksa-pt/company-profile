@@ -1,6 +1,5 @@
 import data from "@/data/content.json";
 
-import TopBar from '@/components/TopBar';
 import Navbar from '@/components/NavBar';
 import HeroSection from '@/components/Hero';
 import AboutSection from "@/components/About";
@@ -15,7 +14,6 @@ import CTASection from '@/components/Work';
 export default function Home() {
   return (
     <div>
-      <TopBar email={data.email} />
       <Navbar menu={data.menu} />
       <HeroSection hero={data.hero} />
       <AboutSection about={data.about} />

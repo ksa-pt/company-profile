@@ -1,31 +1,27 @@
-// AboutSection.jsx
-import { FaCogs, FaPuzzlePiece, FaMobileAlt } from "react-icons/fa";
+import { Sparkles } from "lucide-react";
 
 export default function AboutSection({ about }) {
   return (
-    <section id="about" className="bg-white py-16">
-      <div className="container mx-auto px-4 flex flex-col items-center text-center">
-        {/* Logo */}
-        <img
-          src="/assets/logo.png"
-          alt="Logo KSA"
-          className="w-40 sm:w-52 md:w-60 mb-6"
-        />
-
-        {/* Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-[#F7931E]">
-          {about.title}
+    <section className="relative bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6] py-16 overflow-hidden">
+      {/* Optional: Decorative blob */}
+      <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-[320px] h-[140px] bg-[#F7931E]/20 rounded-full blur-2xl z-0"></div>
+      <div className="relative z-10 flex flex-col items-center">
+        <div className="p-4 bg-white/80 rounded-2xl shadow-lg mb-2">
+          <img src="/assets/logo.png" alt="KSA Logo" className="h-24 mx-auto" />
+        </div>
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-[#F7931E] flex items-center gap-2 mb-1">
+          <span>About KSA Indonesia</span>
+          <Sparkles size={28} className="text-[#3BBFC3] animate-pulse" />
         </h2>
-
-        {/* Description */}
-        <p className="text-gray-700 max-w-2xl leading-relaxed mb-3 text-base sm:text-lg">
-          {about.description}
-        </p>
-
-        <p className="text-gray-600 max-w-3xl leading-relaxed text-sm sm:text-base mb-10">
-          {about.commitment}
-        </p>
-
+        <div className="w-20 h-1 rounded-full bg-gradient-to-r from-[#F7931E] via-[#3BBFC3] to-[#D9443C] mb-6" />
+        <div className="bg-white/70 backdrop-blur-md rounded-xl p-6 shadow-lg max-w-2xl mx-auto">
+          <p className="text-center text-lg text-gray-700 mb-2">
+            <span className="font-bold text-[#F7931E]">Founded in 2023</span>, our company was born from the perfect blend of experienced professionals and passionate, dedicated young talents.
+          </p>
+          <p className="text-center text-base text-gray-600">
+            Our commitment is to deliver data-driven solutions that create a real impact, particularly in the sectors of <span className="text-[#3BBFC3] font-semibold">healthcare, disaster management</span>, and <span className="text-[#D9443C] font-semibold">environmental sustainability</span>—areas that are at the core of our expertise and focus.
+          </p>
+        </div>
       </div>
     </section>
   );

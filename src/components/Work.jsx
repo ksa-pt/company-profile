@@ -1,7 +1,6 @@
 import { Mail } from "lucide-react";
 
 export default function ContactCTA() {
-  // Buat link mailto dengan cc dan subject
   const mailto =
     "mailto:ptkunsejahteraabadi@gmail.com" +
     "?cc=nurfahmi.alifdaffa@gmail.com" +
@@ -9,17 +8,13 @@ export default function ContactCTA() {
     "&body=Hi%20KSA%20Indonesia%2C%0D%0A%0D%0AI%20am%20interested%20in%20collaborating%20with%20your%20team.%20Please%20contact%20me%20back.%0D%0A%0D%0AThanks!";
 
   return (
-    <section className="py-24 flex flex-col items-center justify-center bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6]">
-      {/* Subtitle kecil */}
-      <span className="mb-2 text-base font-medium text-[#3BBFC3] tracking-wider uppercase">
-        Get In Touch
-      </span>
+    <section className="pt-24 pb-10 flex flex-col items-center justify-center bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6]">
       {/* Heading utama */}
       <h2 className="text-4xl md:text-5xl font-extrabold text-center text-[#222] mb-4 tracking-tight">
         Let’s Collaborate and Grow!
       </h2>
       {/* Subheading */}
-      <p className="max-w-xl text-center text-lg text-gray-700 mb-12">
+      <p className="max-w-xl text-center text-lg text-gray-700 mb-10">
         Ready to build the future with us? Share your ideas or ask anything.<br className="hidden md:block" /> Our team will get in touch soon!
       </p>
       {/* Button */}
@@ -35,7 +30,13 @@ export default function ContactCTA() {
       </a>
       {/* Small info */}
       <p className="mt-6 text-sm text-gray-400">
-        Or email us directly: <span className="underline">ptkunsejahteraabadi@gmail.com</span>
+        Or email us directly:{" "}
+        <a
+          href="mailto:ptkunsejahteraabadi@gmail.com?cc=nurfahmi.alifdaffa@gmail.com"
+          className="underline text-[#3BBFC3] hover:text-[#D9443C] transition"
+        >
+          ptkunsejahteraabadi@gmail.com
+        </a>
       </p>
     </section>
   );
