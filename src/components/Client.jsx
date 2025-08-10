@@ -8,7 +8,7 @@ import '../styles/client.css';
 
 export default function ClientSection({ client }) {
   return (
-    <section id="client" className="container mx-auto py-8 px-4 sm:py-16">
+    <section id="client" className="container mx-auto py-24 px-4">
       <h2 className="text-3xl font-bold text-center mb-10">{client.title}</h2>
       <Swiper
         modules={[Navigation, Pagination, A11y, Autoplay]}

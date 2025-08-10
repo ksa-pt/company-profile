@@ -2,7 +2,7 @@ import { Sparkles } from "lucide-react";
 
 export default function AboutSection({ about }) {
   return (
-    <section className="relative bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6] py-16 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6] py-24 overflow-hidden" id="about">
       {/* Optional: Decorative blob */}
       <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-[320px] h-[140px] bg-[#F7931E]/20 rounded-full blur-2xl z-0"></div>
       <div className="relative z-10 flex flex-col items-center">

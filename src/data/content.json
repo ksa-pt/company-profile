@@ -120,15 +120,8 @@
         "client": "JMTO",
         "logo": "/assets/svg/jmto.svg",
         "quote": "JMTO has been consistently impressed by the quality and reliability of service provided. Their solutions have streamlined our operations significantly.",
-        "name": "Budi Santoso",
-        "title": "IT Manager at JMTO"
-      },
-      {
-        "client": "BMKG",
-        "logo": "/assets/svg/bmkg.svg",
-        "quote": "The collaboration with this team has empowered BMKG to process and communicate critical data more efficiently. Truly a transformative partnership.",
-        "name": "Rina Kartika",
-        "title": "Head of Data Analytics at BMKG"
+        "name": "",
+        "title": ""
       }
     ]
   },

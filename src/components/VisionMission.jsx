@@ -18,7 +18,7 @@ const missionList = [
 
 export default function VisionMissionSection() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6] py-16 md:py-24">
+    <section className="min-h-[75vh] flex flex-col justify-center bg-gradient-to-br from-[#e0f8fb] via-[#fffbe7] to-[#e8ffe6] py-16 md:py-16" id="vision-mission">
       <div className="max-w-7xl w-full mx-auto flex flex-col items-center px-4">
         {/* Vision */}
         <div className="flex flex-col items-center mb-14">

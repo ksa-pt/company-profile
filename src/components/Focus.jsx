@@ -1,13 +1,12 @@
 import { Code2, Globe2, Database, Bot } from "lucide-react";
 
-export default function FocusSection() {
+export default function FocusSection({ focus }) {
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gray-50 py-24" id="focus">
       <div className="container mx-auto px-4 text-center">
-        <h3 className="text-2xl font-bold text-[#F7931E] mb-4">Our Focus</h3>
+        <h3 className="text-2xl font-bold text-[#F7931E] mb-4">{focus.title}</h3>
         <p className="text-gray-700 max-w-3xl mx-auto mb-10 text-sm sm:text-base">
-          Here’s what we love doing and where we bring the most value — from coding great systems
-          to making sense of data and applying AI in meaningful ways.
+          {focus.description}
         </p>
 
         {/* Grid 2x2 */}
@@ -17,10 +16,8 @@ export default function FocusSection() {
             <div className="bg-[#3BBFC3] p-3 rounded-full w-fit mb-4">
               <Code2 className="text-white" size={24} />
             </div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Software Development</h4>
-            <p className="text-gray-600 text-sm">
-              We provide software development solutions to build efficient applications and systems.
-            </p>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">{focus.items[0].title}</h4>
+            <p className="text-gray-600 text-sm">{focus.items[0].description}</p>
           </div>
 
           {/* 2 */}
@@ -28,10 +25,8 @@ export default function FocusSection() {
             <div className="bg-[#D9443C] p-3 rounded-full w-fit mb-4">
               <Globe2 className="text-white" size={24} />
             </div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Geographic Information System (GIS)</h4>
-            <p className="text-gray-600 text-sm">
-              We develop spatial data solutions that support location-based decision-making.
-            </p>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">{focus.items[1].title}</h4>
+            <p className="text-gray-600 text-sm">{focus.items[1].description}</p>
           </div>
 
           {/* 3 */}
@@ -39,10 +34,8 @@ export default function FocusSection() {
             <div className="bg-[#F7931E] p-3 rounded-full w-fit mb-4">
               <Database className="text-white" size={24} />
             </div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Big Data</h4>
-            <p className="text-gray-600 text-sm">
-              We help organizations manage and analyze large volumes of data quickly and accurately.
-            </p>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">{focus.items[2].title}</h4>
+            <p className="text-gray-600 text-sm">{focus.items[2].description}</p>
           </div>
 
           {/* 4 */}
@@ -50,10 +43,8 @@ export default function FocusSection() {
             <div className="bg-[#8F57FF] p-3 rounded-full w-fit mb-4">
               <Bot className="text-white" size={24} />
             </div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Large Language Models (AI Based)</h4>
-            <p className="text-gray-600 text-sm">
-              We integrate LLM to build automation and digital assistants like chatbots and reporting.
-            </p>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">{focus.items[3].title}</h4>
+            <p className="text-gray-600 text-sm">{focus.items[3].description}</p>
           </div>
         </div>
       </div>

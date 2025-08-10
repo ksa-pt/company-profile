@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar menu={data.menu} />
       <HeroSection hero={data.hero} />
       <AboutSection about={data.about} />
-      <FeatureSection features={data.features} />
+      <FeatureSection feature={data.features} />
       <FocusSection focus={data.focus} />
       <VisionMissionSection vision={data.vision} mission={data.mission} />
       <ServicesSection service={data.service} />

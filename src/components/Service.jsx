@@ -54,6 +54,7 @@ export default function ServicesSection() {
       style={{
         backgroundImage: "url('/assets/parallax.jpg')",
       }}
+      id="service"
     >
       {/* Overlay transparan agar card & teks tetap jelas */}
       <div className="absolute inset-0 bg-black/60 z-0"></div>
